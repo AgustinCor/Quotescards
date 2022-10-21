@@ -1,0 +1,68 @@
+
+*{
+  text-align: center;
+}
+
+.App{
+ width: 100vw;
+ display: flex;
+ justify-content: center;
+}
+
+.Card{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 30px;
+  width: 1000px;
+  height: 400px;
+  padding: 30px;
+  box-shadow: 0px 1px 5px #000;
+}
+
+.Card img{
+  border-radius: 50%;
+  width: 200px;
+}
+
+h2 i{
+  font-size: 30px;
+}
+
+i{
+  padding: 0 20px;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  flex-direction: column;
+}
+
+li{
+  padding: 20px;
+}
+
+.button-box{
+  display: flex;
+  margin-top: 50px;
+  width: 100%;
+  justify-content: end;
+}
+
+.button-box button{
+  margin-top: 50px;
+  margin-right: 50px;
+  height: 100px;
+  padding:30px;
+  border-radius: 50%;
+  border:none;
+ 
+}
+
+.button-box button i{
+  font-size: 30px;
+  color:#fff;
+}
